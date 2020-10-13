@@ -98,3 +98,24 @@ font-size: 2em;
 font-family: 'Ubuntu', sans-serif;
 color:white;
 }
+@media screen and (max-width: 768px){
+.turn{display:none}
+.subtitleblock{margin-top: 2%;}
+.boy{display:none}
+.medail{display: none;}
+footer{height: 5%;
+margin-top: 5%;}
+.imgtop{background-color: none;}
+}
+@media screen and (max-width: 992px){
+.turn{display: none;}
+.subtitleblock{margin-top: 2%;}
+.boy{display:none}
+.medail{display: none;}
+footer{height: 5%;
+margin-top: 5%;}
+.imgtop{background-color: none;}
+}
+@media screen and (max-width: 1200px){
+
+}
