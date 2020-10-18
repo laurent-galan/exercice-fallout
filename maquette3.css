@@ -1,7 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
-
 ul{
 	margin-left: auto;
 }
@@ -92,7 +91,6 @@ margin-left: 25%;
 margin-right: 15%;
 margin-bottom: -100px;
 }
-
 .gras{
 font-weight: 900;
 }
@@ -130,5 +128,17 @@ top: 190px;
 }
 .p_one{
 padding-top: 15%;;
+}
+@media (max-width: 768px){
+	h2{font-size: 0.6em;
+	line-height: 10%;}
+	footer{display: none;}
+	.firstp{line-height: normal;}
+	.title{font-size:2em;}
+	.imgtop{ height: 240px;}
+	.turn{display: none;}
+	.boy{position: relative;
+	bottom: 50px;}
+	.bottom_img{display: none;}
 }
 
