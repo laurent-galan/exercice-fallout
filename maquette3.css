@@ -129,16 +129,30 @@ top: 190px;
 .p_one{
 padding-top: 15%;;
 }
-@media (max-width: 768px){
+@media (max-width: 560px){
 	h2{font-size: 0.6em;
 	line-height: 10%;}
 	footer{display: none;}
 	.firstp{line-height: normal;}
 	.title{font-size:2em;}
-	.imgtop{ height: 240px;}
+	.imgtop{ height: 200px;}
 	.turn{display: none;}
 	.boy{position: relative;
 	bottom: 50px;}
 	.bottom_img{display: none;}
+}
+@media (max-width:992px){
+	h2{font-size: 0.8em;
+		line-height: 12%;}
+		footer{display: none;}
+		.firstp{line-height: normal;}
+		.title{font-size:2.5em;}
+		.imgtop{ height: 340px;}
+		.turn{display: none;}
+		.boy{position: relative;
+		bottom: 50px;}
+		.bottom_img{display: none;}
+		.subtitle{margin-top: 2%;}
+	}
 }
 
